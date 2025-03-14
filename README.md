@@ -30,6 +30,7 @@ Install them via:
 ```r
 install.packages(c("tidyverse", "Rtsne"))
 # For keras, follow instructions at: https://keras.rstudio.com/
+```
 
 ## Contact
 For any questions or issues, please refer to the source files in the repository or contact the project maintainers by txl1001@miami.edu.
