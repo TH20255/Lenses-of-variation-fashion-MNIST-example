@@ -3,7 +3,7 @@ find_spectral_gap <- function(pca_result) {
   
   diff_eigs <- diff(eigenvalues)
   
-  largest_gap_index <- which.max(diff_eigs)
+  largest_gap_index <- which.min(log10(diff_eigs))
   
   return(list(
     num_components = largest_gap_index,
