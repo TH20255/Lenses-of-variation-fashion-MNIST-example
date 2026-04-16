@@ -1,4 +1,4 @@
-# Lenses of Variation: Fashion MNIST Example
+# PRIM-Fashion
 This repository contains an integrated R pipeline for analyzing the Fashion MNIST dataset using a PCA–fastPRIM framework. The goal is to extract desired subsets from the data by applying fastPRIM peeling in both high-variance (principal) and low-variance (pettiest) subspaces. These subsets are then visualized using t-SNE and grid-based sample selection, providing insights into fashion trends and design variety.
 
 ## Directory Structure
